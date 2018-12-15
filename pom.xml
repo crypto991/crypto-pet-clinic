@@ -14,7 +14,7 @@
     </parent>
     <groupId>crypto.world</groupId>
     <artifactId>demo</artifactId>
-    <version>0.0.4-SNAPSHOT</version>
+    <version>0.0.4</version>
     <name>crypto-pet-clinic</name>
     <description>Crypto Pet Clinic Project</description>
 
@@ -48,7 +48,7 @@
 
     <scm>
         <developerConnection>scm:git:git@github.com:crypto991/crypto-pet-clinic.git</developerConnection>
-      <tag>HEAD</tag>
+      <tag>demo-0.0.4</tag>
   </scm>
 
 </project>
