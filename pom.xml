@@ -39,4 +39,8 @@
         </plugins>
     </build>
 
+    <scm>
+        <developerConnection>scm:git:git@github.com:crypto991/crypto-pet-clinic.git</developerConnection>
+    </scm>
+
 </project>
