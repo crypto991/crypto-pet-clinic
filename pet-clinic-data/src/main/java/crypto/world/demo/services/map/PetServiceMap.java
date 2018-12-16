@@ -2,9 +2,11 @@ package crypto.world.demo.services.map;
 
 import crypto.world.demo.model.Pet;
 import crypto.world.demo.services.CrudService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class PetServiceMap extends AbstractMapService<Pet, Long> implements CrudService<Pet, Long> {
 
     @Override

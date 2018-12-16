@@ -2,9 +2,12 @@ package crypto.world.demo.services.map;
 
 import crypto.world.demo.model.Vet;
 import crypto.world.demo.services.VetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+
+@Service
 public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
 

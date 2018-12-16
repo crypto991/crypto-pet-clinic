@@ -4,8 +4,6 @@ import crypto.world.demo.model.Owner;
 import crypto.world.demo.model.Vet;
 import crypto.world.demo.services.OwnerService;
 import crypto.world.demo.services.VetService;
-import crypto.world.demo.services.map.OwnerServiceMap;
-import crypto.world.demo.services.map.VetServiceMap;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
@@ -16,10 +14,9 @@ public class DataLoader implements CommandLineRunner {
     private final OwnerService ownerService;
     private final VetService vetService;
 
-    public DataLoader() {
-        ownerService = new OwnerServiceMap();
-        vetService = new VetServiceMap();
-
+    public DataLoader(OwnerService ownerService, VetService vetService) {
+        this.ownerService = ownerService;
+        this.vetService = vetService;
     }
 
     @Override
