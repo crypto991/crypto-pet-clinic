@@ -2,9 +2,12 @@ package crypto.world.demo.services.map;
 
 import crypto.world.demo.model.Visit;
 import crypto.world.demo.services.VisitService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+
+@Service
 public class VisitServiceMap extends AbstractMapService<Visit, Long> implements VisitService {
 
     @Override
