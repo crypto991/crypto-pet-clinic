@@ -1,14 +1,14 @@
 package crypto.world.demo.services.map;
 
 import crypto.world.demo.model.Speciality;
-import crypto.world.demo.services.SpecialitesService;
+import crypto.world.demo.services.SpecialtyService;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 
 @Service
-public class SpecialityServiceMap extends AbstractMapService<Speciality, Long> implements SpecialitesService {
+public class SpecialityServiceMap extends AbstractMapService<Speciality, Long> implements SpecialtyService {
 
 
     @Override
