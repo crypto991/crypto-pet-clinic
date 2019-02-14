@@ -37,7 +37,7 @@ class OwnerServiceMapTest {
 
         Owner owner = ownerServiceMap.findById(ownerId);
         //compiler is confused if you dont type long value
-        assertEquals(ownerId,(long)owner.getId());
+        assertEquals(ownerId,(long )owner.getId());
 
     }
 
